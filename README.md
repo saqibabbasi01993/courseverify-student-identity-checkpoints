@@ -3,7 +3,6 @@
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/courseverify-student-identity-checkpoints?label=version)](https://wordpress.org/plugins/courseverify-student-identity-checkpoints/)
 [![Rating](https://img.shields.io/wordpress/plugin/rating/courseverify-student-identity-checkpoints)](https://wordpress.org/plugins/courseverify-student-identity-checkpoints/#reviews)
 [![Downloads](https://img.shields.io/wordpress/plugin/dt/courseverify-student-identity-checkpoints)](https://wordpress.org/plugins/courseverify-student-identity-checkpoints/advanced/)
-[![Active Installs](https://img.shields.io/wordpress/plugin/installs/courseverify-student-identity-checkpoints)](https://wordpress.org/plugins/courseverify-student-identity-checkpoints/)
 [![Requires WP](https://img.shields.io/wordpress/plugin/wp-version/courseverify-student-identity-checkpoints)](https://wordpress.org/plugins/courseverify-student-identity-checkpoints/)
 [![Requires PHP](https://img.shields.io/wordpress/plugin/required-php/courseverify-student-identity-checkpoints)](https://wordpress.org/plugins/courseverify-student-identity-checkpoints/)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPLv2%2B-blue.svg)](LICENSE)
