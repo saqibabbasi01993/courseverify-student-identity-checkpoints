@@ -1,0 +1,155 @@
+.courseverify-container {
+	max-width: 480px;
+	margin: 2em auto;
+	padding: 1.75em;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.courseverify-heading {
+	margin-top: 0;
+	font-size: 1.25em;
+}
+
+.courseverify-intro,
+.courseverify-hint {
+	margin: 0 0 1em;
+}
+
+.courseverify-hint {
+	font-size: 0.9em;
+	color: #646970;
+}
+
+.courseverify-question-field {
+	border: none;
+	padding: 0;
+	margin: 0 0 1.25em;
+}
+
+.courseverify-question-field legend {
+	font-weight: 600;
+	margin-bottom: 0.5em;
+}
+
+.courseverify-question-field label,
+.courseverify-verify-form label {
+	display: block;
+	margin: 0.5em 0 0.25em;
+	font-weight: 500;
+}
+
+.courseverify-input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.6em 0.75em;
+	border: 1px solid #b9bcc2;
+	border-radius: 6px;
+	font-size: 1em;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.courseverify-input:focus {
+	outline: none;
+	border-color: #1e4b7a;
+	box-shadow: 0 0 0 3px rgba(30, 75, 122, 0.15);
+}
+
+.courseverify-question {
+	display: block;
+	font-weight: 600;
+	margin: 0 0 0.5em;
+}
+
+.courseverify-message {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.6em;
+	min-height: 0;
+	margin: 1.1em 0;
+	padding: 0;
+	font-size: 0.92em;
+	line-height: 1.45;
+	border-radius: 6px;
+	transition: all 0.15s ease;
+}
+
+.courseverify-message:empty {
+	margin: 0;
+}
+
+.courseverify-message.is-error,
+.courseverify-message.is-success,
+.courseverify-message.is-warning {
+	padding: 0.75em 0.9em;
+	border: 1px solid transparent;
+}
+
+.courseverify-message-icon {
+	flex: 0 0 auto;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.4em;
+	height: 1.4em;
+	border-radius: 50%;
+	font-size: 0.85em;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.courseverify-message-text {
+	padding-top: 0.15em;
+}
+
+.courseverify-message.is-error {
+	background: #fdecea;
+	border-color: #f5c6c3;
+	color: #7a2622;
+}
+
+.courseverify-message.is-error .courseverify-message-icon {
+	background: #d9534f;
+	color: #fff;
+}
+
+.courseverify-message.is-warning {
+	background: #fff8e6;
+	border-color: #f5dd9c;
+	color: #7a5b00;
+	font-weight: 500;
+}
+
+.courseverify-message.is-warning .courseverify-message-icon {
+	background: #e5a100;
+	color: #fff;
+}
+
+.courseverify-message.is-success {
+	background: #eaf6ec;
+	border-color: #b9e0bf;
+	color: #205024;
+}
+
+.courseverify-message.is-success .courseverify-message-icon {
+	background: #2e9e3f;
+	color: #fff;
+}
+
+.courseverify-verify-form.is-final-attempt .courseverify-input {
+	border-color: #e5a100;
+	box-shadow: 0 0 0 3px rgba(229, 161, 0, 0.15);
+}
+
+.courseverify-submit {
+	margin-top: 0.5em;
+	border-radius: 6px;
+	padding: 0.5em 1.4em;
+	font-weight: 600;
+}
+
+.courseverify-locked .courseverify-heading {
+	color: #b32d2e;
+}

@@ -1,0 +1,54 @@
+.courseverify-admin .courseverify-stat-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	margin: 1.5em 0;
+}
+
+.courseverify-admin .courseverify-stat-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 1.25em 1.5em;
+	min-width: 160px;
+}
+
+.courseverify-admin .courseverify-stat-card-warning {
+	border-left: 4px solid #b32d2e;
+}
+
+.courseverify-admin .courseverify-stat-number {
+	display: block;
+	font-size: 1.8em;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.courseverify-admin .courseverify-stat-label {
+	display: block;
+	color: #646970;
+	font-size: 0.9em;
+}
+
+.courseverify-admin .courseverify-filter-form {
+	margin: 1em 0;
+	display: flex;
+	gap: 0.5em;
+	align-items: center;
+}
+
+.courseverify-admin .courseverify-row-actions {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4em;
+}
+
+.courseverify-admin .courseverify-inline-form {
+	display: flex;
+	gap: 0.4em;
+	align-items: center;
+}
+
+.courseverify-admin .courseverify-reason-input {
+	max-width: 160px;
+}
